@@ -1,0 +1,51 @@
+.second {
+    margin: 40px;
+}
+
+.heart {
+    font-size: 10px;
+}
+
+.afterheart {
+    height: 8px;
+    width: 14px;
+}
+.heart2
+{
+    font-size: 15px;
+}
+.main__container-heading__img
+{
+    margin-left: 76px;
+    margin-top: -1px;
+}
+.section__like {
+    font-size: 18px;
+    opacity: 90%;
+    margin: auto;
+}
+
+.hidden
+{
+    background-color: #fd8e3a;
+    border-radius: 36px;
+    margin: auto;
+    /* width: 180px; */
+    width: 85%;
+    padding: 10px;
+    /* top: 4px; */
+    position: relative;
+    /* top: -28px; */
+    top: -40px;
+    /* left: 78px; */
+    /* right: 0; */
+    bottom: -8px;
+    z-index: -1;
+}
+.group
+{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+
+}

@@ -1,0 +1,87 @@
+.main__button
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.button
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button__btn {
+    /* background-color: var(--green); */
+    background-color: var(--light-green);
+    padding: 10px 30px;
+    /* margin: 20px auto; */
+    border-radius: 6px;
+    color: var(--white);
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.button__btn:hover
+{
+    transition: .5s ease-in-out;
+    color: var(--green);
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.button__btn-white{
+    background-color: transparent;
+    padding: 10px 30px;
+    margin: 15px auto;
+    border-radius: 6px;
+    border: none;
+    color: var(--green);
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none;  
+    border: 1px solid var(--black);
+}
+.button__btn-white:hover
+{
+    transition: .5s ease-in-out;
+    background-color: var(--green);
+    background-color: var(--light-green);
+    border-radius: 6px;
+    border: none;
+    color: var(--white);
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .button__btn
+    {
+        padding: 8px 10px;
+    }
+    .button__btn-white
+    {
+        padding: 8px 10px;
+    }   
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .button__btn
+    {
+        padding: 4px 8px;
+    }
+    .button__btn-white
+    {
+        padding: 4px 8px;
+    }
+
+}
