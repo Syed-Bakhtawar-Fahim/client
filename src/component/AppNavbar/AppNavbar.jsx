@@ -17,7 +17,7 @@ function AppNavbar() {
 
                             <Link  to='/' className="NavUl" >Home</Link>
                             <Link  to='secondCard' className="NavUl">SecondCard</Link>
-                            <Link  to='listen-quran' className="NavUl">Listen Quran</Link>
+                            <Link  to='casestudy' className="NavUl">casestudy</Link>
                             <Link  to='al-hadees' className="NavUl">Al-Hadees</Link>
                             <Link  to='feedback' className="NavUl">Feedback</Link>
                         </Nav>
