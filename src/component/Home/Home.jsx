@@ -1,6 +1,5 @@
 import React from "react";
 import { FaFacebookF } from 'react-icons/fa'
-import { AiOutlineHeart } from 'react-icons/ai'
 import './Home.css';
 import '../../index.css'
 
